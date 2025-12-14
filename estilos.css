@@ -1,0 +1,58 @@
+body {
+}
+
+
+.ramo.aprobado {
+background: #c3f7d3;
+text-decoration: line-through;
+}
+
+
+.ramo.bloqueado {
+opacity: 0.5;
+cursor: not-allowed;
+}
+
+
+.mensaje {
+text-align: center;
+color: #a61e4d;
+font-weight: bold;
+margin: 10px 0;
+}
+
+
+.barra-container {
+width: 80%;
+height: 12px;
+background: #f3c6d8;
+margin: 10px auto;
+border-radius: 10px;
+}
+
+
+.barra {
+height: 100%;
+width: 0%;
+background: #ff6fa1;
+border-radius: 10px;
+}
+
+
+#porcentaje {
+text-align: center;
+font-weight: bold;
+color: #a61e4d;
+}
+
+
+#reset {
+display: block;
+margin: 15px auto;
+padding: 8px 15px;
+border: none;
+border-radius: 20px;
+background: #ff8fb1;
+color: white;
+cursor: pointer;
+}
